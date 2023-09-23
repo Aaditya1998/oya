@@ -42,8 +42,10 @@ export default function Navbar({}: Props) {
               <div className="relative cursor-pointer">
                 <Image
                   src="https://img.freepik.com/free-psd/3d-illustration-person-with-sunglasses_23-2149436188.jpg?w=740&t=st=1695325508~exp=1695326108~hmac=725b590ed34ab92a42d36ff7c9ea3f3fa7cb6600b5194dbae65dfb4942352bbb"
-                  className="w-10 h-10 rounded-full object-cover"
-                  alt=""
+                  alt="User Profile"
+                  width={36} // Specify the desired width
+                  height={36} // Specify the desired height
+                  className="rounded-full object-cover"
                   onClick={toggleProfile}
                 />
                 <div

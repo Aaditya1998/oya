@@ -1,4 +1,8 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+const nextConfig = {
+  images: {
+    domains: ["img.freepik.com"], // Add the domain(s) of your image source(s)
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
