@@ -1,8 +1,10 @@
 "use client";
 import React, { useState } from "react";
 import Link from "next/link";
+import Image from "next/image";
 import SearchBar from "./SearchBar";
 import { CiShoppingCart } from "react-icons/ci";
+
 type Props = {};
 
 export default function Navbar({}: Props) {
@@ -38,7 +40,7 @@ export default function Navbar({}: Props) {
               <SearchBar />
 
               <div className="relative cursor-pointer">
-                <img
+                <Image
                   src="https://img.freepik.com/free-psd/3d-illustration-person-with-sunglasses_23-2149436188.jpg?w=740&t=st=1695325508~exp=1695326108~hmac=725b590ed34ab92a42d36ff7c9ea3f3fa7cb6600b5194dbae65dfb4942352bbb"
                   className="w-10 h-10 rounded-full object-cover"
                   alt=""
